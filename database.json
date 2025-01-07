@@ -1,0 +1,545 @@
+[
+  {
+    "id": 1,
+    "vin": "4T1BF1FK5CU123456",
+    "model": "Toyota Camry",
+    "image": "https://etp-aktiv.ru/upload/iblock/1ea/87pi5o0r62ie1wj9dgpp1eru61b4zwht.jpg",
+    "details": {
+      "make": "TOYOTA",
+      "manufacturer": "TOYOTA MOTOR MANUFACTURING, KENTUCKY, INC.",
+      "model": "Camry",
+      "year": "2012",
+      "plantInfo": {
+        "city": "GEORGETOWN",
+        "state": "KENTUCKY",
+        "country": "UNITED STATES (USA)",
+        "company": "Toyota Motor Manufacturing, Kentucky, Inc."
+      },
+      "series": "ASV50L/GSV50L/AVV50L",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "driveType": "4x2",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "2500.0",
+          "ci": "152.55936023683",
+          "l": "2.5"
+        },
+        "model": "2AR-FE",
+        "fuelType": "Gasoline",
+        "configuration": "In-Line",
+        "fuelDelivery": "Multipoint Fuel Injection (MPFI)",
+        "horsePower": "178"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "curtain": "All Rows",
+          "front": "1st Row (Driver and Passenger)",
+          "knee": "1st Row (Driver and Passenger)",
+          "side": "All Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 2,
+    "vin": "4T1BF3EK7AU115454",
+    "model": "Toyota Camry",
+    "image": "https://s.drom.ru/1/reviews/photos/toyota/camry/big_55743_1.jpeg",
+    "details": {
+      "make": "TOYOTA",
+      "manufacturer": "TOYOTA MOTOR MANUFACTURING, KENTUCKY, INC.",
+      "model": "Camry",
+      "year": "2010",
+      "plantInfo": {
+        "city": "GEORGETOWN",
+        "state": "KENTUCKY",
+        "country": "UNITED STATES (USA)",
+        "company": "Toyota Motor Manufacturing, Kentucky, Inc."
+      },
+      "series": "ASV40L/GSV40L/AHV40L",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "driveType": "4x2",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "2500.0",
+          "ci": "152.55936023683",
+          "l": "2.5"
+        },
+        "model": "2AR-FE",
+        "fuelType": "Gasoline",
+        "configuration": "In-Line",
+        "horsePower": "169"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "curtain": "All Rows",
+          "front": "1st Row (Driver and Passenger)",
+          "knee": "Driver Seat Only",
+          "side": "1st Row (Driver and Passenger)"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 3,
+    "vin": "2HGES16575H123456",
+    "model": "Honda Civic",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/2004-2005_Honda_Civic_Hybrid_--_03-13-2012.JPG",
+    "details": {
+      "make": "HONDA",
+      "manufacturer": "HONDA OF CANADA MFG., A DIVISION OF HONDA CANADA INC.",
+      "model": "Civic",
+      "year": "2005",
+      "plantInfo": {
+        "city": "ALLISTON",
+        "state": "ONTARIO",
+        "country": "CANADA"
+      },
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "1668",
+          "ci": "101.787605150",
+          "l": "1.668000"
+        },
+        "model": "D17A1",
+        "fuelType": "Gasoline",
+        "configuration": "In-Line",
+        "horsePower": "115"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "front": "1st Row (Driver and Passenger)"
+        }
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 4,
+    "vin": "1HGFA16526L123456",
+    "model": "Honda Civic",
+    "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/media/35815/honda-civic-hybrid-photo-40731-s-986x603.jpg",
+    "details": {
+      "make": "HONDA",
+      "manufacturer": "AMERICAN HONDA MOTOR CO., INC.",
+      "model": "Civic",
+      "year": "2006",
+      "plantInfo": {
+        "city": "EAST LIBERTY",
+        "state": "OHIO",
+        "country": "UNITED STATES (USA)"
+      },
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "1802.577040",
+          "ci": "110",
+          "l": "1.802577040"
+        },
+        "model": "R18A1",
+        "fuelType": "Gasoline",
+        "configuration": "In-Line",
+        "horsePower": "140"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "curtain": "1st and 2nd Rows",
+          "front": "1st Row (Driver and Passenger)",
+          "side": "1st Row (Driver and Passenger)"
+        }
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 5,
+    "vin": "1FTEW1EG5JFB53154",
+    "model": "Ford F-150",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2018_Ford_F-150_XLT_Crew_Cab%2C_front_11.10.19.jpg/640px-2018_Ford_F-150_XLT_Crew_Cab%2C_front_11.10.19.jpg",
+    "details": {
+      "make": "FORD",
+      "manufacturer": "FORD MOTOR COMPANY",
+      "model": "F-150",
+      "year": "2018",
+      "plantInfo": {
+        "city": "DEARBORN",
+        "state": "MICHIGAN",
+        "country": "UNITED STATES (USA)",
+        "company": "Dearborn"
+      },
+      "vehicleType": "TRUCK",
+      "bodyClass": "Pickup",
+      "driveType": "4WD/4-Wheel Drive/4x4",
+      "engine": {
+        "cylinders": "6",
+        "displacement": {
+          "cc": "3500.0",
+          "ci": "213.58310433156",
+          "l": "3.5"
+        },
+        "model": "3.5L GTDI",
+        "fuelType": "Gasoline",
+        "configuration": "V-Shaped",
+        "fuelDelivery": "Stoichiometric Gasoline Direct Injection (SGDI)",
+        "horsePower": "375.00"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "front": "1st Row (Driver and Passenger)",
+          "side": "1st and 2nd Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 6,
+    "vin": "1FTFW1ET4BFB44632",
+    "model": "Ford F-150",
+    "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/11q2/395918/2011-ford-f-150-xlt-supercrew-4x4-50-v8-review-car-and-driver-photo-400450-s-original.jpg?fill=1:1&resize=1200:*",
+    "details": {
+      "make": "FORD",
+      "manufacturer": "FORD MOTOR COMPANY",
+      "model": "F-150",
+      "year": "2011",
+      "plantInfo": {
+        "city": "DEARBORN",
+        "state": "MICHIGAN",
+        "country": "UNITED STATES (USA)"
+      },
+      "vehicleType": "TRUCK",
+      "bodyClass": "Pickup",
+      "driveType": "4WD/4-Wheel Drive/4x4",
+      "engine": {
+        "cylinders": "6",
+        "displacement": {
+          "cc": "3500.0",
+          "ci": "213.58310433156",
+          "l": "3.5"
+        },
+        "fuelType": "Gasoline",
+        "configuration": "V-Shaped",
+        "fuelDelivery": "Stoichiometric Gasoline Direct Injection (SGDI)"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "front": "1st Row (Driver and Passenger)",
+          "side": "1st and 2nd Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 7,
+    "vin": "1G1ZD5ST2JF123456",
+    "model": "Chevrolet Malibu",
+    "image": "https://di-uploads-development.dealerinspire.com/chevycenter-legacymigration0720/uploads/2020/07/2018-Chevrolet-Malibu.jpg",
+    "details": {
+      "make": "CHEVROLET",
+      "manufacturer": "GENERAL MOTORS LLC",
+      "model": "Malibu",
+      "year": "2018",
+      "plantInfo": {
+        "city": "KANSAS CITY",
+        "state": "KANSAS",
+        "country": "UNITED STATES (USA)",
+        "company": "Fairfax Assembly"
+      },
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "driveType": "FWD/Front-Wheel Drive",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "1500.0",
+          "ci": "91.53561614209",
+          "l": "1.5"
+        },
+        "model": "LFV - Direct Injection, Variable Valve Timing, GEN 1",
+        "fuelType": "Gasoline",
+        "configuration": "In-Line"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "curtain": "All Rows",
+          "front": "1st Row (Driver and Passenger)",
+          "knee": "1st Row (Driver and Passenger)",
+          "side": "1st and 2nd Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 8,
+    "vin": "1GCEK19J08Z123456",
+    "model": "Chevrolet Silverado",
+    "image": "https://images.ctfassets.net/c9t6u0qhbv9e/2008ChevroletSilverado1500Previewsummary/a367efe71982a69d5e7193d7b090349c/2008_Chevrolet_Silverado_1500_Preview_summaryImage.jpeg",
+    "details": {
+      "make": "CHEVROLET",
+      "manufacturer": "GENERAL MOTORS LLC",
+      "model": "Silverado",
+      "year": "2008",
+      "plantInfo": {
+        "city": "ROANOKE",
+        "state": "INDIANA",
+        "country": "UNITED STATES (USA)",
+        "company": "Fort Wayne Assembly"
+      },
+      "series": "1/2 Ton",
+      "vehicleType": "TRUCK",
+      "bodyClass": "Pickup",
+      "doors": "4",
+      "driveType": "4WD/4-Wheel Drive/4x4",
+      "engine": {
+        "cylinders": "8",
+        "displacement": {
+          "cc": "5300.0",
+          "ci": "323.42584370208",
+          "l": "5.3"
+        },
+        "model": "LY5",
+        "configuration": "V-Shaped",
+        "fuelDelivery": "Sequential Fuel Injection (SFI)"
+      },
+      "safety": {
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 9,
+    "vin": "WBAWV53578P123456",
+    "model": "BMW 3 Series",
+    "image": "https://avatars.mds.yandex.net/get-autoru-vos/6491990/9463b451994684ffe540ec2eece8747e/456x342",
+    "details": {
+      "make": "BMW",
+      "manufacturer": "BMW AG",
+      "model": "328xi",
+      "year": "2008",
+      "plantInfo": {
+        "city": "REGENSBURG",
+        "country": "GERMANY"
+      },
+      "series": "3-Series",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Coupe",
+      "doors": "2",
+      "engine": {
+        "cylinders": "6",
+        "displacement": {
+          "cc": "2995.5552992",
+          "ci": "182.8",
+          "l": "3.0"
+        },
+        "fuelType": "Gasoline",
+        "horsePower": "230"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "front": "1st Row (Driver and Passenger)"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 10,
+    "vin": "WBA3N5C51EK123456",
+    "model": "BMW 3 Series",
+    "image": "https://i.ytimg.com/vi/sNuGu5hpXbY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgYihaMA8=&rs=AOn4CLATH9wzw-EZKW6tn0B23MJ7vrfcCQ",
+    "details": {
+      "make": "BMW",
+      "manufacturer": "BMW AG",
+      "model": "428i",
+      "year": "2014",
+      "plantInfo": {
+        "city": "MUNICH",
+        "country": "GERMANY"
+      },
+      "series": "4-Series",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Coupe",
+      "doors": "2",
+      "driveType": "AWD/All-Wheel Drive",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "1995.9443952",
+          "ci": "121.8",
+          "l": "2.0"
+        },
+        "fuelType": "Gasoline",
+        "horsePower": "240"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "curtain": "1st and 2nd Rows",
+          "front": "1st Row (Driver and Passenger)",
+          "knee": "1st Row (Driver and Passenger)",
+          "side": "1st Row (Driver and Passenger)"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 11,
+    "vin": "WDDNG7DB8CA123456",
+    "model": "Mercedes-Benz S-Class",
+    "image": "https://avatars.mds.yandex.net/get-autoru-vos/2162948/3a47235867b90d98f9af2580f7dd1ac0/456x342",
+    "details": {
+      "make": "MERCEDES-BENZ",
+      "manufacturer": "MERCEDES-BENZ CARS",
+      "model": "S-Class",
+      "year": "2012",
+      "plantInfo": {
+        "city": "SINDELFINGEN",
+        "country": "GERMANY"
+      },
+      "series": "S550",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "engine": {
+        "cylinders": "8",
+        "displacement": {
+          "cc": "4700.0",
+          "ci": "286.81159724524",
+          "l": "4.7"
+        },
+        "fuelType": "Gasoline",
+        "configuration": "V-Shaped"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "front": "1st Row (Driver and Passenger)",
+          "side": "1st and 2nd Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 12,
+    "vin": "WDDGF4HB7CA123456",
+    "model": "Mercedes-Benz C-Class",
+    "image": "https://a.d-cd.net/bc0cbc2s-1920.jpg",
+    "details": {
+      "make": "MERCEDES-BENZ",
+      "manufacturer": "MERCEDES-BENZ CARS",
+      "model": "C-Class",
+      "year": "2012",
+      "plantInfo": {
+        "city": "SINDELFINGEN",
+        "country": "GERMANY"
+      },
+      "series": "C250",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "engine": {
+        "cylinders": "4",
+        "displacement": {
+          "cc": "1800.0",
+          "ci": "109.84273937051",
+          "l": "1.8"
+        },
+        "fuelType": "Gasoline",
+        "configuration": "In-Line"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "front": "1st Row (Driver and Passenger)",
+          "side": "1st and 2nd Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  },
+  {
+    "id": 13,
+    "vin": "4T1BK1EB1EU175498",
+    "model": "TOYOTA Avalon",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Toyota_Land_Cruiser_%28J12%29_front_20100725.jpg/1024px-Toyota_Land_Cruiser_%28J12%29_front_20100725.jpg",
+    "details": {
+      "make": "TOYOTA",
+      "manufacturer": "TOYOTA MOTOR MANUFACTURING, KENTUCKY, INC.",
+      "model": "Avalon",
+      "year": "2014",
+      "plantInfo": {
+        "city": "GEORGETOWN",
+        "state": "KENTUCKY",
+        "country": "UNITED STATES (USA)",
+        "company": "Toyota Motor Manufacturing, Kentucky, Inc."
+      },
+      "series": "GSX40L/AVX40L",
+      "vehicleType": "PASSENGER CAR",
+      "bodyClass": "Sedan/Saloon",
+      "doors": "4",
+      "driveType": "4x2",
+      "engine": {
+        "cylinders": "6",
+        "displacement": {
+          "cc": "3456",
+          "ci": "213.58310433156",
+          "l": "3.5"
+        },
+        "model": "2GR-FE",
+        "fuelType": "Gasoline",
+        "configuration": "V-Shaped",
+        "fuelDelivery": "Multipoint Fuel Injection (MPFI)",
+        "horsePower": "268"
+      },
+      "safety": {
+        "seatBeltType": "Manual",
+        "airBags": {
+          "curtain": "All Rows",
+          "front": "1st Row (Driver and Passenger)",
+          "knee": "1st Row (Driver and Passenger)",
+          "side": "All Rows"
+        },
+        "tpmsType": "Direct"
+      },
+      "availableForBooking": true
+    }
+  }
+]
