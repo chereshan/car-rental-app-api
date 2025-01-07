@@ -31,9 +31,17 @@ function writeDB(data) {
 app.get('/api/cars', (req, res) => {
   try {
     const db = readDB();
-    res.json(db);
+    res.json({
+      message: 'Список машин успешно получен',
+      result: true,
+      data: db
+    });
   } catch (error) {
-    res.status(500).json({ error: 'Ошибка при чтении базы данных' });
+    res.status(500).json({
+      message: 'Ошибка при чтении базы данных',
+      result: false,
+      data: null
+    });
   }
 });
 
@@ -45,13 +53,21 @@ app.post('/api/cars/add', async (req, res) => {
     
     // Проверяем, существует ли машина с таким VIN
     if (db.some(car => car.vin === vin)) {
-      return res.status(400).json({ error: 'Машина с таким VIN уже существует' });
+      return res.status(400).json({
+        message: 'Машина с таким VIN уже существует',
+        result: false,
+        data: null
+      });
     }
 
     // Получаем детальную информацию по VIN
     const carDetails = await updateDatabase(vin);
     if (!carDetails) {
-      return res.status(400).json({ error: 'Не удалось получить информацию по VIN' });
+      return res.status(400).json({
+        message: 'Не удалось получить информацию по VIN',
+        result: false,
+        data: null
+      });
     }
 
     // Создаем новую запись
@@ -67,10 +83,18 @@ app.post('/api/cars/add', async (req, res) => {
     db.push(newCar);
     writeDB(db);
     
-    res.status(201).json(newCar);
+    res.status(201).json({
+      message: 'Машина успешно добавлена',
+      result: true,
+      data: newCar
+    });
   } catch (error) {
     console.error('Ошибка при добавлении машины:', error);
-    res.status(500).json({ error: 'Ошибка при добавлении машины' });
+    res.status(500).json({
+      message: 'Ошибка при добавлении машины',
+      result: false,
+      data: null
+    });
   }
 });
 
@@ -82,15 +106,27 @@ app.delete('/api/cars/remove/:id', (req, res) => {
     
     const index = db.findIndex(car => car.id === id);
     if (index === -1) {
-      return res.status(404).json({ error: 'Машина не найдена' });
+      return res.status(404).json({
+        message: 'Машина не найдена',
+        result: false,
+        data: null
+      });
     }
     
-    db.splice(index, 1);
+    const removedCar = db.splice(index, 1)[0];
     writeDB(db);
     
-    res.json({ message: 'Машина успешно удалена' });
+    res.json({
+      message: 'Машина успешно удалена',
+      result: true,
+      data: removedCar
+    });
   } catch (error) {
-    res.status(500).json({ error: 'Ошибка при удалении машины' });
+    res.status(500).json({
+      message: 'Ошибка при удалении машины',
+      result: false,
+      data: null
+    });
   }
 });
 
@@ -103,7 +139,11 @@ app.put('/api/cars/update/:id', (req, res) => {
     
     const index = db.findIndex(car => car.id === id);
     if (index === -1) {
-      return res.status(404).json({ error: 'Машина не найдена' });
+      return res.status(404).json({
+        message: 'Машина не найдена',
+        result: false,
+        data: null
+      });
     }
     
     // Обновляем только те поля, которые пришли в запросе
@@ -116,15 +156,23 @@ app.put('/api/cars/update/:id', (req, res) => {
     db[index] = updatedCar;
     writeDB(db);
     
-    res.json(updatedCar);
+    res.json({
+      message: 'Машина успешно обновлена',
+      result: true,
+      data: updatedCar
+    });
   } catch (error) {
-    res.status(500).json({ error: 'Ошибка при обновлении машины' });
+    res.status(500).json({
+      message: 'Ошибка при обновлении машины',
+      result: false,
+      data: null
+    });
   }
 });
 
 // Простой маршрут
 app.get('/', (req, res) => {
-  res.send('Простой api для приложения аренды машин (car-rental-app).');
+  res.send('Простой API для приложения аренды машин (car-rental-app).');
 });
 
 // Запуск сервера
