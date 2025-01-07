@@ -7,7 +7,20 @@ const { updateDatabase } = require('./updateDatabase.js');
 // Используем порт из переменной окружения для Glitch
 const port = process.env.PORT || 3000;
 
-const DB_PATH = './database.json';
+const DB_PATH = process.env.PROJECT_DOMAIN ? 
+  '.data/database.json' : // путь для Glitch
+  './database.json';      // локальный путь
+
+// Создаем директорию .data если её нет (только для Glitch)
+if (process.env.PROJECT_DOMAIN) {
+  if (!fs.existsSync('.data')) {
+    fs.mkdirSync('.data');
+  }
+  // Копируем начальную БД если файла нет
+  if (!fs.existsSync(DB_PATH)) {
+    fs.copyFileSync('./database.json', DB_PATH);
+  }
+}
 
 // Включаем CORS для всех запросов
 app.use(cors());
