@@ -3,22 +3,40 @@ const fs = require('fs');
 const cors = require('cors');
 const app = express();
 const { updateDatabase } = require('./updateDatabase.js');
+const path = require('path');
 
 // Используем порт из переменной окружения для Glitch
 const port = process.env.PORT || 3000;
 
 const DB_PATH = process.env.PROJECT_DOMAIN ? 
-  '.data/database.json' : // путь для Glitch
-  './database.json';      // локальный путь
+  path.join(__dirname, '.data', 'database.json') : // путь для Glitch
+  path.join(__dirname, 'database.json');           // локальный путь
+
+console.log('Current environment:', process.env.PROJECT_DOMAIN ? 'Glitch' : 'Local');
+console.log('Database path:', DB_PATH);
 
 // Создаем директорию .data если её нет (только для Glitch)
 if (process.env.PROJECT_DOMAIN) {
-  if (!fs.existsSync('.data')) {
-    fs.mkdirSync('.data');
-  }
-  // Копируем начальную БД если файла нет
-  if (!fs.existsSync(DB_PATH)) {
-    fs.copyFileSync('./database.json', DB_PATH);
+  try {
+    console.log('Creating .data directory if not exists...');
+    
+    const dataDir = path.join(__dirname, '.data');
+    if (!fs.existsSync(dataDir)) {
+      fs.mkdirSync(dataDir);
+      console.log('.data directory created successfully');
+    } else {
+      console.log('.data directory already exists');
+    }
+
+    if (!fs.existsSync(DB_PATH)) {
+      console.log('Copying initial database...');
+      fs.copyFileSync('./database.json', DB_PATH);
+      console.log('Database copied successfully');
+    } else {
+      console.log('Database file already exists');
+    }
+  } catch (error) {
+    console.error('Error setting up data directory:', error);
   }
 }
 
