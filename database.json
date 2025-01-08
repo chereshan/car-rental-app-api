@@ -2,7 +2,6 @@
   {
     "id": 1,
     "vin": "4T1BF1FK5CU123456",
-    "model": "Toyota Camry",
     "image": "https://etp-aktiv.ru/upload/iblock/1ea/87pi5o0r62ie1wj9dgpp1eru61b4zwht.jpg",
     "details": {
       "make": "TOYOTA",
@@ -49,7 +48,6 @@
   {
     "id": 2,
     "vin": "4T1BF3EK7AU115454",
-    "model": "Toyota Camry",
     "image": "https://s.drom.ru/1/reviews/photos/toyota/camry/big_55743_1.jpeg",
     "details": {
       "make": "TOYOTA",
@@ -95,7 +93,6 @@
   {
     "id": 3,
     "vin": "2HGES16575H123456",
-    "model": "Honda Civic",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/2004-2005_Honda_Civic_Hybrid_--_03-13-2012.JPG",
     "details": {
       "make": "HONDA",
@@ -134,7 +131,6 @@
   {
     "id": 4,
     "vin": "1HGFA16526L123456",
-    "model": "Honda Civic",
     "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/media/35815/honda-civic-hybrid-photo-40731-s-986x603.jpg",
     "details": {
       "make": "HONDA",
@@ -175,7 +171,6 @@
   {
     "id": 5,
     "vin": "1FTEW1EG5JFB53154",
-    "model": "Ford F-150",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2018_Ford_F-150_XLT_Crew_Cab%2C_front_11.10.19.jpg/640px-2018_Ford_F-150_XLT_Crew_Cab%2C_front_11.10.19.jpg",
     "details": {
       "make": "FORD",
@@ -218,7 +213,6 @@
   {
     "id": 6,
     "vin": "1FTFW1ET4BFB44632",
-    "model": "Ford F-150",
     "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/11q2/395918/2011-ford-f-150-xlt-supercrew-4x4-50-v8-review-car-and-driver-photo-400450-s-original.jpg?fill=1:1&resize=1200:*",
     "details": {
       "make": "FORD",
@@ -258,7 +252,6 @@
   {
     "id": 7,
     "vin": "1G1ZD5ST2JF123456",
-    "model": "Chevrolet Malibu",
     "image": "https://di-uploads-development.dealerinspire.com/chevycenter-legacymigration0720/uploads/2020/07/2018-Chevrolet-Malibu.jpg",
     "details": {
       "make": "CHEVROLET",
@@ -302,7 +295,6 @@
   {
     "id": 8,
     "vin": "1GCEK19J08Z123456",
-    "model": "Chevrolet Silverado",
     "image": "https://images.ctfassets.net/c9t6u0qhbv9e/2008ChevroletSilverado1500Previewsummary/a367efe71982a69d5e7193d7b090349c/2008_Chevrolet_Silverado_1500_Preview_summaryImage.jpeg",
     "details": {
       "make": "CHEVROLET",
@@ -340,7 +332,6 @@
   {
     "id": 9,
     "vin": "WBAWV53578P123456",
-    "model": "BMW 3 Series",
     "image": "https://avatars.mds.yandex.net/get-autoru-vos/6491990/9463b451994684ffe540ec2eece8747e/456x342",
     "details": {
       "make": "BMW",
@@ -378,7 +369,6 @@
   {
     "id": 10,
     "vin": "WBA3N5C51EK123456",
-    "model": "BMW 3 Series",
     "image": "https://i.ytimg.com/vi/sNuGu5hpXbY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgYihaMA8=&rs=AOn4CLATH9wzw-EZKW6tn0B23MJ7vrfcCQ",
     "details": {
       "make": "BMW",
@@ -420,7 +410,6 @@
   {
     "id": 11,
     "vin": "WDDNG7DB8CA123456",
-    "model": "Mercedes-Benz S-Class",
     "image": "https://avatars.mds.yandex.net/get-autoru-vos/2162948/3a47235867b90d98f9af2580f7dd1ac0/456x342",
     "details": {
       "make": "MERCEDES-BENZ",
@@ -459,7 +448,6 @@
   {
     "id": 12,
     "vin": "WDDGF4HB7CA123456",
-    "model": "Mercedes-Benz C-Class",
     "image": "https://a.d-cd.net/bc0cbc2s-1920.jpg",
     "details": {
       "make": "MERCEDES-BENZ",
@@ -498,7 +486,6 @@
   {
     "id": 13,
     "vin": "4T1BK1EB1EU175498",
-    "model": "TOYOTA Avalon",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Toyota_Land_Cruiser_%28J12%29_front_20100725.jpg/1024px-Toyota_Land_Cruiser_%28J12%29_front_20100725.jpg",
     "details": {
       "make": "TOYOTA",
