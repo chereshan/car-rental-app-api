@@ -6,6 +6,7 @@ const { readDB, writeDB } = require('../models/database');
 router.get('/', (req, res) => {
   try {
     const db = readDB();
+    console.log(`GET /api/bookings - Успешно получено ${db.bookings.length} бронирований`);
     res.json({
       message: 'Список бронирований успешно получен',
       result: true,

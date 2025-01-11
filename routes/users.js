@@ -6,6 +6,7 @@ const { readDB, writeDB } = require('../models/database');
 router.get('/', (req, res) => {
   try {
     const db = readDB();
+    console.log(`GET /api/users - Успешно получено ${db.users.length} пользователей`);
     res.json({
       message: 'Список пользователей успешно получен',
       result: true,
@@ -20,6 +21,5 @@ router.get('/', (req, res) => {
   }
 });
 
-// Остальные маршруты для пользователей...
 
 module.exports = router; 
