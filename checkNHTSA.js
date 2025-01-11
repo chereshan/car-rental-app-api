@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-async function updateDatabase(vin) {
+async function checkNHTSA(vin) {
   try {
     const response = await axios.get(`https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/${vin}?format=json`);
     const results = response.data.Results;

@@ -1,4 +1,4 @@
-const { addDatabase } = require('./updateDatabase');
+const { addDatabase } = require('./checkNHTSA');
 // для генерации случайных VIN используйте https://vingen.ucob.ru/
 // для проверки наличия VIN используйте https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/4T1BK1EB1EU175498?format=json
 // для изображений поиск гугл руками

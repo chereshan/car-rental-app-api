@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
 const app = express();
-const { updateDatabase } = require('./updateDatabase.js');
+const { checkNHTSA } = require('./checkNHTSA.js');
 const path = require('path');
 
 // Используем порт из переменной окружения для Glitch
@@ -82,8 +82,7 @@ app.get('/api/cars', (req, res) => {
 // GET запрос для получения информации по VIN
 app.get('/api/cars/vin/:vin', async (req, res) => {
   const vin = req.params.vin;
-  const response = await axios.get(`https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/${vin}?format=json`);
-  const carDetails = response.data.Results;
+  const carDetails = await checkNHTSA(vin);
   res.json({
     message: 'Информация по машине успешно получена',
     result: true,
@@ -109,7 +108,7 @@ app.post('/api/cars/add', async (req, res) => {
     }
 
     console.log(`POST /api/cars/add - Получение информации по VIN ${vin}`);
-    const carDetails = await updateDatabase(vin);
+    const carDetails = await checkNHTSA(vin);
     if (!carDetails) {
       console.log(`POST /api/cars/add - Не удалось получить информацию по VIN ${vin}`);
       return res.status(400).json({
