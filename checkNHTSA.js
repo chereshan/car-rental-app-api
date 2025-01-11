@@ -46,7 +46,7 @@ async function checkNHTSA(vin) {
       }
     };
 
-    if (!details.make || !details.model) {
+    if (!details.make) {
       return null;
     }
 
@@ -57,4 +57,4 @@ async function checkNHTSA(vin) {
   }
 }
 
-module.exports = { updateDatabase };
+module.exports = { checkNHTSA };
