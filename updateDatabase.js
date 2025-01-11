@@ -46,6 +46,10 @@ async function updateDatabase(vin) {
       }
     };
 
+    if (!details.make || !details.model) {
+      return null;
+    }
+
     return details;
   } catch (error) {
     console.error('Error fetching car details:', error);

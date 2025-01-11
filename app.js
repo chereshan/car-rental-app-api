@@ -79,7 +79,20 @@ app.get('/api/cars', (req, res) => {
   }
 });
 
+// GET запрос для получения информации по VIN
+app.get('/api/cars/vin/:vin', async (req, res) => {
+  const vin = req.params.vin;
+  const response = await axios.get(`https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/${vin}?format=json`);
+  const carDetails = response.data.Results;
+  res.json({
+    message: 'Информация по машине успешно получена',
+    result: true,
+    data: carDetails
+  });
+});
+
 // POST запрос для добавления новой машины
+// если make и model из api = null, то возвращаем ошибку
 app.post('/api/cars/add', async (req, res) => {
   console.log('POST /api/cars/add - Попытка добавить машину:', req.body);
   try {
